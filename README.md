@@ -15,6 +15,7 @@ A professional, responsive multi-page website for Cedoch Energy Limited, built f
 | `/` | Home | Hero, company stats, services preview, why choose us, values, CTA |
 | `/about` | About Us | Executive summary, vision & mission, objectives, founder's message, values |
 | `/services` | Services | All 10 principal services with anchor links |
+| `/gallery` | Gallery | Project and operations photo gallery |
 | `/policies` | Policies | Health & Safety, Quality Assurance, Environmental Protection, CSR |
 | `/contact` | Contact | Phone/email details and an enquiry form (opens the user's mail client) |
 
@@ -31,10 +32,11 @@ npm run preview  # preview the production build
 
 ```
 src/
-  components/   # Navbar, Footer, PageHeader, Icon, ScrollToTop
+  components/   # Navbar, Footer, PageHeader, Icon, ScrollToTop, Hero
   data/         # All site content (services, policies, values, contact info)
-  pages/        # Home, About, Services, Policies, Contact
+  pages/        # Home, About, Services, Gallery, Policies, Contact
   styles/       # Global stylesheet and design tokens
+public/assets/  # Brand logo and images extracted from company profile
 ```
 
 All copy lives in `src/data/content.js`, so text updates don't require touching components.
