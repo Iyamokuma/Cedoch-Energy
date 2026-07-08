@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+*.local
+cedoch-energy-deploy.zip
+public/assets/pdf
